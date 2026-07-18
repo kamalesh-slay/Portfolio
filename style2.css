@@ -1,0 +1,461 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    cursor: none;
+}
+
+.nav {
+    background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 1em;
+    width: 20rem;
+    height: 3rem;
+    padding: 12px 5px;
+    top: 3%;
+    left: 16.5%;
+    backdrop-filter: blur(8px);
+    position: fixed;
+    z-index: 999;
+    transition: 0.3s all ease-in;
+
+}
+
+
+.nav ul,
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: inter;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+
+.nav a:hover {
+    color: black;
+
+}
+
+.vwr {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+
+.overall:has(.res:hover) .vwr {
+    opacity: 1;
+}
+
+#select {
+    font-family: syne;
+    font-weight: 800;
+    font-size: 2rem;
+    color: white;
+
+}
+
+.overall {
+    margin-top: 20%;
+    padding: 0% 5%;
+}
+
+.works {
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrk1 {
+    border: 1px solid rgba(188, 188, 188, 0.824);
+    border-radius: 1em;
+    width: 100%;
+    height: 600px;
+    padding: 5%;
+    background-color: rgba(16, 23, 39, 0.37);
+    transition: all 0.2s ease-in-out;
+}
+
+.wrk1:hover{
+    box-shadow: 0px 0px 20px 2px rgba(0, 174, 255, 0.3);
+}
+
+.wrk2 {
+    margin-top: 4%;
+    border: 1px solid rgba(188, 188, 188, 0.824);
+    border-radius: 1em;
+    width: 100%;
+    height: 600px;
+    padding: 5%;
+    background-color: rgba(16, 23, 39, 0.37);
+    transition: all 0.2s ease-in-out;
+}
+
+.wrk2:hover{
+    box-shadow: 0px 0px 20px 2px rgba(0, 174, 255, 0.3);
+}
+
+#more {
+    margin-top: 5%;
+    font-family: syne;
+    font-weight: 800;
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.exp {
+    margin-bottom: 5%;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-size: 1.2em;
+    font-family: syne;
+    font-weight: 700;
+    border-radius: 1em;
+}
+
+.exp img {
+    border-radius: 1em;
+    width: 120px;
+    height: 85px;
+    border: 1px solid rgba(177, 177, 177, 0.75);
+}
+
+.exp p {
+    padding: 7% 5%;
+}
+
+#vid {
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+}
+
+#vid2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+}
+
+#ps {
+    color: white;
+    font-family: syne;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+
+#abt {
+    margin-top: 5%;
+    color: rgba(188, 186, 186, 0.566);
+    font-family: syne;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.btm {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    display: flex;
+    gap: 15px;
+}
+
+#vwr {
+    color: rgb(255, 255, 255);
+    font-family: syne;
+    font-size:12px;
+    border-radius: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    padding: 10px 16px;
+    position: fixed;
+    left: 5%;
+    top: 9%;
+    z-index: 9999;
+    transition: all 0.2s ease-in;
+    opacity: 0;
+}
+
+.overall:has(.res:hover) #vwr {
+    opacity: 1;
+}
+
+.exp{
+    border: 1px solid rgba(188, 188, 188, 0.131);
+    background-color: rgba(16, 23, 39, 0.37);
+}
+
+.plat {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    margin-top:2%;
+}
+
+.st1 {
+    padding: 20px 20px;
+    border: 1px solid rgba(0, 174, 255, 0.439);
+    border-radius: 1em;
+    background-color: rgba(16, 23, 39, 0.625);
+}
+
+.st2 {
+    padding: 20px 15px;
+    border: 1px solid rgba(0, 174, 255, 0.439);
+    border-radius: 1em;
+    background-color: rgba(16, 23, 39, 0.625);
+}
+
+.st3 {
+    padding: 20px 20px;
+    border: 1px solid rgba(0, 174, 255, 0.439);
+    border-radius: 1em;
+    background-color: rgba(16, 23, 39, 0.625);
+}
+
+#too{
+   color:rgb(0, 174, 255);
+   font-family: syne;
+   font-weight: 800;
+   font-size: 28px; 
+}
+
+#pjt{
+    color: gray; 
+    font-family: syne;
+     font-size:15px;  
+}
+
+#onp{
+    color:rgb(0, 174, 255);
+   font-family: syne;
+   font-weight: 800;
+   font-size: 30px; 
+
+}
+
+#ep{
+    color: gray; 
+    font-family: syne;
+     font-size: 15px; 
+
+}
+
+#hund{
+    color:rgb(0, 174, 255);
+   font-family: syne;
+   font-weight: 800;
+   font-size: 30px; 
+
+}
+
+#ont{
+    color: gray; 
+    font-family: syne;
+     font-size: 15px; 
+
+}
+
+
+
+@media screen and (min-width: 1400px) {
+
+    body{
+        cursor: auto;
+    }
+
+    .nav {
+        left: 40%;
+        width: 25rem;
+        height: 3.125rem;
+        padding: 12px 5px;
+        top: 4%;
+        left: 40%;
+        backdrop-filter: blur(8px);
+        position: fixed;
+        z-index: 999;
+    }
+
+    #select {
+        font-size: 4rem;
+    }
+
+    .overall {
+        margin-top: 10%;
+    }
+
+    .wrk1 {
+        display: flex;
+        gap: 5%;
+        padding: 2%;
+    }
+
+    .wrk2 {
+        display: flex;
+        gap: 5%;
+        padding: 2%;
+    }
+
+    .vid {
+        padding: 5% 0%;
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .con {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .vid video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    #ps {
+        font-size: 50px;
+    }
+
+    .btm {
+        padding: 0px 5%;
+    }
+
+    #abt {
+        font-size: 30px;
+        font-weight: 200;
+    }
+
+    .btm button {
+        padding: 10px 20px;
+        font-size: 25px;
+    }
+
+    #more {
+        font-size: 50px;
+    }
+
+    .exp img {
+        width: 200px;
+        height: 130px;
+    }
+
+    .exp p {
+        padding: 10% 2%;
+        font-size: 25px;
+    }
+
+    .exp {
+        display: flex;
+        margin-bottom: 2%;
+    }
+
+    #vwr {
+        left: 37%;
+    }
+
+    .exp{
+        width: 450px;
+    }
+
+    .plat {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 40px;
+    margin-top:2%;
+}
+
+.st1 {
+    padding: 7px 30px;
+}
+
+.st2 {
+    padding: 7px 30px;
+}
+
+.st3 {
+    padding: 7px 30px;
+}
+
+#too{
+   color:rgb(0, 174, 255);
+   font-family: syne;
+   font-weight: 800;
+   font-size: 50px; 
+}
+
+#pjt{
+    color: gray; 
+    font-family: syne;
+     font-size: 15px;  
+}
+
+#onp{
+    color:rgb(0, 174, 255);
+   font-family: syne;
+   font-weight: 800;
+   font-size: 50px; 
+
+}
+
+#ep{
+    color: gray; 
+    font-family: syne;
+     font-size: 15px; 
+
+}
+
+#hund{
+    color:rgb(0, 174, 255);
+   font-family: syne;
+   font-weight: 800;
+   font-size: 50px; 
+
+}
+
+#ont{
+    color: gray; 
+    font-family: syne;
+     font-size: 15px; 
+
+}
+
+.plat {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 40px;
+    margin-top:2%;
+}
+
+}

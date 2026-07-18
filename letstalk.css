@@ -1,0 +1,409 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+#git{
+    font-family: syne;
+    color: rgba(181, 180, 180, 0.669); 
+    font-size:15px;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+
+.overall{
+    margin-top: 5%;
+    padding: 5%;
+}
+
+#bak{
+    padding: 6px 14px ;
+    color: black;
+    background-color: white;
+    font-family: syne;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 1em;
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+
+#lst{
+    font-family: syne;
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+
+#talk{
+    background-color: black;
+    border-radius: .25em;
+    color: white;
+    font-family: syne;
+    font-weight: 800;
+    padding: 5px 15px;
+    font-size: 50px;
+    display: inline;
+    margin-top: 5px;
+}
+
+#des{
+    margin-top: 20px;
+    color: rgba(181, 180, 180, 0.669);
+    font-family: syne;
+    font-size: 20px;
+}
+
+.contact{
+    margin-top: 8%;
+    width: 90vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.email{
+    border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.05);
+    border-radius: 1em;
+    width: 100%;
+    height: 100px;
+    padding: 5%;
+    display: flex;
+    gap: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+.media{
+    border-radius: 1em;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 2%;
+
+}
+
+#github{
+    border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.05);
+    border-radius: .5em;
+    padding: 3%;
+
+}
+
+#insta{
+   border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.05);
+    border-radius: .5em;
+    padding: 3%;
+
+}
+
+#linked{
+    border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.05);
+    border-radius: .5em;
+    padding: 3%;
+
+}
+
+#wp{
+    border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.05);
+    border-radius: .5em;
+    padding: 3%;
+
+}
+
+#emlogo{
+    padding: 5% 4%;
+    background-color: rgba(244, 240, 240, 0.1);
+    border-radius: 1em;
+}
+
+#phlogo{
+    padding: 5% 4%;
+    background-color: rgba(12, 65, 11, 0.288);
+    
+    border-radius: 1em;
+}
+
+#lologo{
+    padding: 5%;
+    background-color: rgba(65, 11, 11, 0.288);
+    border-radius: 1em;
+}
+
+#em{
+    margin-top: 5px;
+    font-family: syne;
+    font-size: 12px;
+    color:rgba(181, 180, 180, 0.669);
+}
+
+#emp{
+    margin-top: 5px;
+    color: white;
+    font-family: inter;
+    font-size: 15px;
+}
+
+.form{
+    margin-top: 10%;
+    width: 90vw;
+    height: auto;
+    border:1px solid rgba(255,255,255,.15);
+    background-color: rgba(0, 0, 0, 0.156);
+    border-radius: 1em;
+    padding: 5%;
+}
+
+#sam{
+    color: white;
+    font-family: syne;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#smd{
+    color: rgba(181, 180, 180, 0.669);
+    font-family: syne;
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+
+.naem{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.input-name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-name label{
+    font-family: syne;
+    font-size: 15px;
+    color:rgba(181, 180, 180, 0.669);
+     
+}
+
+.input-name input{
+    width: 100%;
+    padding: 15px 18px;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    background: rgba(255,255,255,0.05);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    transition: .3s;
+}
+
+
+.input-name input:focus{
+    border-color: rgb(106, 174, 255);
+    box-shadow: 0 0 20px rgba(106,169,255,.25);
+}
+
+#select{
+    margin-top: 5%;
+}
+
+#wyn{
+     color: rgba(181, 180, 180, 0.669);
+    font-family: syne;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#service{
+    margin-top: 5px;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    background: rgba(255,255,255,0.05);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    transition: .3s;
+     width: 100%;
+    padding: 15px 18px;
+}
+
+#service:focus{
+    border-color: rgb(106, 174, 255);
+    box-shadow: 0 0 20px rgba(106,169,255,.25);
+}
+
+#service option{
+    background-color: rgb(9, 8, 41);
+}
+
+#price-range{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+#bdrange{
+    font-family: syne;
+    font-size: 15px;
+    color:rgba(181, 180, 180, 0.669);  
+}
+
+#price{
+    padding: 6px 12px;
+}
+
+#btnp{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#btnp input{
+    display: none;
+}
+
+#btnp>label{
+    margin-bottom:12px;
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    color:rgba(255,255,255,.6);
+}
+
+.budget-pill{
+      padding:12px 18px;
+    border-radius:50px;
+    border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.05);
+    color:#cfd8ff;
+    font-family: inter;
+    font-size:14px;
+    cursor:pointer;
+    transition:.3s ease;
+    user-select:none;
+}
+
+#btnp input:checked + .budget-pill{
+    background-color:rgba(94, 175, 255, 0.384) ;
+    color:white;
+    border-color:#488efe;
+    box-shadow:0 0 20px rgba(94,156,255,.35);
+}
+
+.input-box{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+
+#ym{
+    color: rgba(181, 180, 180, 0.669);
+    font-family: syne;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+#js{
+    font-family: inter;
+    outline: none;
+    font-size: 13px;
+    width: 100%;
+    height:150px;
+    margin-top: 3%;
+    border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.05);
+    color:#cfd8ff;
+    border-radius: 1em;
+    padding: 5%;
+}
+
+#js::placeholder{
+    color:rgba(255,255,255,.35);
+    line-height:1.3;
+    font-size: 12px;
+}
+
+#js:focus{
+    border-color:rgb(106, 174, 255);
+    box-shadow:0 0 25px rgba(106,174,255,.25);
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#submit{
+    margin-top: 4%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    font-family: syne;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 3em;
+    outline: none;
+}
+
+#submit:focus{
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.334);
+}
+
+#complete{
+    display: none;
+    border: 1px solid rgba(17, 195, 70, 0.627);
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    margin-top: 3%;
+    border-radius: 1em;
+    background-color: rgba(16, 189, 68, 0.152);
+}
+
+
+#conformation{
+    margin-top: 3%;
+    color: rgba(17, 195, 70, 0.846);
+    text-align: center;
+    font-family: inter;
+    font-size: 18px;
+
+}
+
+#ls{
+    text-align: center;
+    margin-top: 3%;
+    color: rgba(181, 180, 180, 0.669);
+    font-family: syne;
+    font-size: 15px;
+    font-weight: normal;
+}
